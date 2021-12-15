@@ -16,3 +16,6 @@ How do I approach developing programs? What agile processes do I hope to incorpo
 
 
 What does it mean to be a good team member in software development?
+  Being a good team member in software development carries a few factors that many career fields and goal oriented aspiriations possess. Specifically, being a good member of a
+  Scrum Team entails being prepared for your role and knowledgeable of its various operations. Respect, open communication, and transparency also play a major part in any group 
+  setting as it involves many different personalities working toward a common goal of a high value and efficient product. 
