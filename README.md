@@ -13,6 +13,7 @@ How do I approach designing software?
 
 
 
+CS250 Software Development Lifecycle
 
 How do I interpret user needs and implement them into a program? How does creating “user stories” help with this?
   User needs are necessary for creating a quality product and understanding the desires and overall focus of the project. They are interpreted and implemented through user stories 
