@@ -1,4 +1,18 @@
 # Portfolio
+CS340 Client/Server Development
+
+How do you write programs that are maintainable, readable, and adaptable? Especially consider your work on the CRUD Python module from Project One, which you used to connect the dashboard widgets to the database in Project Two. What were the advantages of working in this way? How else could you use this CRUD Python module in the future?
+   Initially, I ensure proper naming with respect to classes and variables. The method should be fully understandable from the name. Attempts are also made to ensure methods and code are not repeated but rather grouped into a single method. Comments are necessary for explanations and commented out code is deleted to reduce clutter. There are several advantages to connecting the CRUD module and dashboard widgets to the database. Easy performance checks are utilized through testing and a quick glance at useful functionality and accessibility can take place if needed. The CRUD Python module could be very useful in expanding the entire program to meet other needs. It could additionally be used as a template for other similar programs not limited to an AnimalShelter database. 
+
+How do you approach a problem as a computer scientist? Consider how you approached the database or dashboard requirements that Grazioso Salvare requested. How did your approach to this project differ from previous assignments in other courses? What techniques or strategies would you use in the future to create databases to meet other client requests?
+   The problem was approached from a systematic point of view with respect to understanding, design, implementation, and testing. Different from previous assignments, this project required substantial thought in that the time constraints and amount of planning made it more difficult. This was a multilevel assignment that questioned and checked knowledge from previous courses along with the current set of assignments. The techniques and strategies learned and implemented in Mongodb will be carried into future assignments specifically in the work place. This set of assignments created a launching off point needed to continue learning the material.  
+
+What do computer scientists do, and why does it matter? How would your work on this type of project help a company, like Grazioso Salvare, to do their work better?
+   A computer scientist has many potential roles but generally speaking uses technology to solve issues with a primary focus of validating and developing models for interaction between a person and a computer. This focus is very important due to the fact that close attention to detail is necessary for programming and a human component is required to bridge the gap between the computer and user. The dashboard created for Grazioso Salvare bridges this gap between computer and user allowing minimal amount of time and money to be spent on training an employee to query and/or search/update information based on the animal shelter project. 
+
+
+
+
 CS320 Software Test Automation & QA
 
 How can I ensure that my code, program, or software is functional and secure?
