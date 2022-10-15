@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{8315b0c5-362b-4556-9c9c-caf8444668ee}</ProjectGuid>
+    <RootNamespace>FinalProject</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>\\apporto.com\dfs\SNHU\USERS\joshuapardue_snhu\Desktop\OpenGL\OpenGL\glm;\\apporto.com\dfs\SNHU\USERS\joshuapardue_snhu\Desktop\OpenGL\OpenGL\GLFW\include;\\apporto.com\dfs\SNHU\USERS\joshuapardue_snhu\Desktop\OpenGL\OpenGL\GLEW\include;\\apporto.com\dfs\SNHU\USERS\joshuapardue_snhu\Desktop\OpenGL\OpenGL\GLAD;$(IncludePath)</IncludePath>
+    <LibraryPath>\\apporto.com\dfs\SNHU\Users\joshuapardue_snhu\Desktop\OpenGL\OpenGL\GLFW\lib-vc2019;\\apporto.com\dfs\SNHU\USERS\joshuapardue_snhu\Desktop\OpenGL\OpenGL\GLEW\lib\Release\Win32;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>glfw3.lib;opengl32.lib;glew32.lib;glu32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Bmp.cpp" />
+    <ClCompile Include="cylinder.cpp" />
+    <ClCompile Include="glad.c" />
+    <ClCompile Include="Pardue_Scene.cpp" />
+    <ClCompile Include="shader.cpp" />
+    <ClCompile Include="ShapeGenerator.cpp" />
+    <ClCompile Include="staticMesh3D.cpp" />
+    <ClCompile Include="staticMeshIndexed3D.cpp" />
+    <ClCompile Include="Texture.cpp" />
+    <ClCompile Include="vboindexer.cpp" />
+    <ClCompile Include="vertexBufferObject.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Bmp.h" />
+    <ClInclude Include="camera.h" />
+    <ClInclude Include="cylinder.h" />
+    <ClInclude Include="linmath.h" />
+    <ClInclude Include="mesh.h" />
+    <ClInclude Include="model.h" />
+    <ClInclude Include="shader.h" />
+    <ClInclude Include="shader.hpp" />
+    <ClInclude Include="ShapeData.h" />
+    <ClInclude Include="ShapeGenerator.h" />
+    <ClInclude Include="Sphere.h" />
+    <ClInclude Include="staticMesh3D.h" />
+    <ClInclude Include="stb_image.h" />
+    <ClInclude Include="Texture.hpp" />
+    <ClInclude Include="vboindexer.hpp" />
+    <ClInclude Include="Vertex.h" />
+    <ClInclude Include="vertexBufferObject.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Images\ash.jpg" />
+    <Image Include="Images\awesomeface.png" />
+    <Image Include="Images\brick.jpg" />
+    <Image Include="Images\container.jpg" />
+    <Image Include="Images\container1.jpg" />
+    <Image Include="Images\container2.jpg" />
+    <Image Include="Images\container2_black.png" />
+    <Image Include="Images\container2_specular.png" />
+    <Image Include="Images\gold.PNG" />
+    <Image Include="Images\PageRight.png" />
+    <Image Include="Images\pavement.jpg" />
+    <Image Include="Images\pb.png" />
+    <Image Include="Images\pebbles.jpg" />
+    <Image Include="Images\pencil.jpg" />
+    <Image Include="Images\penciltip.jpg" />
+    <Image Include="Images\pilea.jpg" />
+    <Image Include="Images\Pink.jpg" />
+    <Image Include="Images\pinkMarble.jpg" />
+    <Image Include="Images\PIplastic.jpg" />
+    <Image Include="Images\PistonMetal.jpg" />
+    <Image Include="Images\postit.jpg" />
+    <Image Include="Images\PostIts.jpg" />
+    <Image Include="Images\pumpkin.jpg" />
+    <Image Include="Images\purple_wood.jpg" />
+    <Image Include="Images\qq.png" />
+    <Image Include="Images\rimofbulp.jpg" />
+    <Image Include="Images\roof.jpg" />
+    <Image Include="Images\screen.jpg" />
+    <Image Include="Images\seaglass1.jpg" />
+    <Image Include="Images\seaglass2.jpg" />
+    <Image Include="Images\seaglass3.jpg" />
+    <Image Include="Images\sheetmetal.jpg" />
+    <Image Include="Images\shingle2.jpg" />
+    <Image Include="Images\sides of pyramid.JPG" />
+    <Image Include="Images\siding.jpg" />
+    <Image Include="Images\silver-metal-texture-background_46250-2433.jpg" />
+    <Image Include="Images\silver.jpg" />
+    <Image Include="Images\singleGarage.jfif" />
+    <Image Include="Images\smile.jpg" />
+    <Image Include="Images\smiley.jpg" />
+    <Image Include="Images\smiley.png" />
+    <Image Include="Images\smiley_border.png" />
+    <Image Include="Images\smiley_clamped.png" />
+    <Image Include="Images\smiley_mirrored.png" />
+    <Image Include="Images\smiley_repeat.png" />
+    <Image Include="Images\smiley_specular.png" />
+    <Image Include="Images\Spiral.png" />
+    <Image Include="Images\spoon_design.jpg" />
+    <Image Include="Images\spoon_head.jpg" />
+    <Image Include="Images\steel.jpg" />
+    <Image Include="Images\steel2.jpg" />
+    <Image Include="Images\sun.png" />
+    <Image Include="Images\table.jpg" />
+    <Image Include="Images\tea.jpg" />
+    <Image Include="Images\tea_box.jpg" />
+    <Image Include="Images\tea_tin.jpg" />
+    <Image Include="Images\test.png" />
+    <Image Include="Images\tiewing.jpg" />
+    <Image Include="Images\tile.jpg" />
+    <Image Include="Images\top_book_texture.jpg" />
+    <Image Include="Images\top_book_texture_2.jpg" />
+    <Image Include="Images\toy_box_diffuse.png" />
+    <Image Include="Images\tradescantia.jpg" />
+    <Image Include="Images\transparentGlass.jpg" />
+    <Image Include="Images\TruePaintColor.png" />
+    <Image Include="Images\TruePaintColor_specular.png" />
+    <Image Include="Images\underwater.jpg" />
+    <Image Include="Images\uvmap.DDS" />
+    <Image Include="Images\wall.jpg" />
+    <Image Include="Images\whiteFence.jpg" />
+    <Image Include="Images\window.jpg" />
+    <Image Include="Images\Wire.jpg" />
+    <Image Include="Images\wood.jfif" />
+    <Image Include="Images\wood3.PNG" />
+    <Image Include="Images\wooden-crate.jpg" />
+    <Image Include="Images\woodPan2.jpg" />
+    <Image Include="Images\wood_table.jpg" />
+    <Image Include="Images\yellow.jpg" />
+    <Image Include="Images\yoga_mat.jpg" />
+    <Image Include="uvtemplate.bmp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

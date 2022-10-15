@@ -1,0 +1,347 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Pardue_Scene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vertexBufferObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vboindexer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="staticMeshIndexed3D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="staticMesh3D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ShapeGenerator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="shader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Bmp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cylinder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="glad.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stb_image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="shader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="shader.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ShapeData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ShapeGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sphere.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="staticMesh3D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vboindexer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Vertex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vertexBufferObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.hpp">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Bmp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cylinder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="model.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="linmath.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="uvtemplate.bmp">
+      <Filter>Header Files</Filter>
+    </Image>
+    <Image Include="Images\ash.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\awesomeface.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\brick.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\container.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\container1.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\container2.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\container2_black.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\container2_specular.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\PageRight.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\pavement.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\pb.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\pebbles.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\pencil.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\penciltip.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\pilea.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Pink.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\pinkMarble.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\PIplastic.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\PistonMetal.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\postit.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\PostIts.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\pumpkin.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\purple_wood.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\qq.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\rimofbulp.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\roof.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\screen.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\seaglass1.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\seaglass2.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\seaglass3.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\sheetmetal.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\shingle2.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\sides of pyramid.JPG">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\siding.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\silver.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\silver-metal-texture-background_46250-2433.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\singleGarage.jfif">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\smile.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\smiley.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\smiley.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\smiley_border.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\smiley_clamped.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\smiley_mirrored.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\smiley_repeat.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\smiley_specular.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Spiral.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\spoon_design.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\spoon_head.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\steel.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\steel2.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\sun.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\table.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\tea.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\tea_box.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\tea_tin.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\test.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\tiewing.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\tile.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\top_book_texture.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\top_book_texture_2.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\toy_box_diffuse.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\tradescantia.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\transparentGlass.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\TruePaintColor.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\TruePaintColor_specular.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\underwater.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\uvmap.DDS">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\wall.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\whiteFence.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\window.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Wire.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\wood.jfif">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\wood_table.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\wood3.PNG">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\wooden-crate.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\woodPan2.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\yellow.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\yoga_mat.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\gold.PNG">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
