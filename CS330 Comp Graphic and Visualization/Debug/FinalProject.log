@@ -1,0 +1,46 @@
+﻿  Pardue_Scene.cpp
+\\apporto.com\dfs\SNHU\USERS\joshuapardue_snhu\Desktop\FinalProject\FinalProject\FinalProject\shader.h(57,34): warning C4101: 'e': unreferenced local variable
+\\apporto.com\dfs\SNHU\USERS\joshuapardue_snhu\Desktop\FinalProject\FinalProject\FinalProject\Pardue_Scene.cpp(545,22): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+\\apporto.com\dfs\SNHU\USERS\joshuapardue_snhu\Desktop\FinalProject\FinalProject\FinalProject\Pardue_Scene.cpp(575,56): warning C4305: 'argument': truncation from 'double' to 'float'
+\\apporto.com\dfs\SNHU\USERS\joshuapardue_snhu\Desktop\FinalProject\FinalProject\FinalProject\Pardue_Scene.cpp(576,60): warning C4305: 'argument': truncation from 'double' to 'float'
+\\apporto.com\dfs\SNHU\USERS\joshuapardue_snhu\Desktop\FinalProject\FinalProject\FinalProject\Pardue_Scene.cpp(584,56): warning C4305: 'argument': truncation from 'double' to 'float'
+\\apporto.com\dfs\SNHU\USERS\joshuapardue_snhu\Desktop\FinalProject\FinalProject\FinalProject\Pardue_Scene.cpp(585,60): warning C4305: 'argument': truncation from 'double' to 'float'
+\\apporto.com\dfs\SNHU\USERS\joshuapardue_snhu\Desktop\FinalProject\FinalProject\FinalProject\Pardue_Scene.cpp(593,56): warning C4305: 'argument': truncation from 'double' to 'float'
+\\apporto.com\dfs\SNHU\USERS\joshuapardue_snhu\Desktop\FinalProject\FinalProject\FinalProject\Pardue_Scene.cpp(594,60): warning C4305: 'argument': truncation from 'double' to 'float'
+\\apporto.com\dfs\SNHU\USERS\joshuapardue_snhu\Desktop\FinalProject\FinalProject\FinalProject\Pardue_Scene.cpp(602,56): warning C4305: 'argument': truncation from 'double' to 'float'
+\\apporto.com\dfs\SNHU\USERS\joshuapardue_snhu\Desktop\FinalProject\FinalProject\FinalProject\Pardue_Scene.cpp(603,60): warning C4305: 'argument': truncation from 'double' to 'float'
+\\apporto.com\dfs\SNHU\USERS\joshuapardue_snhu\Desktop\FinalProject\FinalProject\FinalProject\Pardue_Scene.cpp(612,51): warning C4305: 'argument': truncation from 'double' to 'float'
+\\apporto.com\dfs\SNHU\USERS\joshuapardue_snhu\Desktop\FinalProject\FinalProject\FinalProject\Pardue_Scene.cpp(613,55): warning C4305: 'argument': truncation from 'double' to 'float'
+\\apporto.com\dfs\SNHU\USERS\joshuapardue_snhu\Desktop\FinalProject\FinalProject\FinalProject\Pardue_Scene.cpp(668,25): warning C4305: 'argument': truncation from 'double' to 'float'
+\\apporto.com\dfs\SNHU\USERS\joshuapardue_snhu\Desktop\FinalProject\FinalProject\FinalProject\Pardue_Scene.cpp(756,64): warning C4305: 'argument': truncation from 'double' to 'float'
+\\apporto.com\dfs\SNHU\USERS\joshuapardue_snhu\Desktop\FinalProject\FinalProject\FinalProject\Pardue_Scene.cpp(769,64): warning C4305: 'argument': truncation from 'double' to 'float'
+\\apporto.com\dfs\SNHU\USERS\joshuapardue_snhu\Desktop\FinalProject\FinalProject\FinalProject\Pardue_Scene.cpp(780,65): warning C4305: 'argument': truncation from 'double' to 'float'
+\\apporto.com\dfs\SNHU\USERS\joshuapardue_snhu\Desktop\FinalProject\FinalProject\FinalProject\Pardue_Scene.cpp(791,65): warning C4305: 'argument': truncation from 'double' to 'float'
+\\apporto.com\dfs\SNHU\USERS\joshuapardue_snhu\Desktop\FinalProject\FinalProject\FinalProject\Pardue_Scene.cpp(801,65): warning C4305: 'argument': truncation from 'double' to 'float'
+\\apporto.com\dfs\SNHU\USERS\joshuapardue_snhu\Desktop\FinalProject\FinalProject\FinalProject\Pardue_Scene.cpp(811,65): warning C4305: 'argument': truncation from 'double' to 'float'
+\\apporto.com\dfs\SNHU\USERS\joshuapardue_snhu\Desktop\FinalProject\FinalProject\FinalProject\Pardue_Scene.cpp(824,65): warning C4305: 'argument': truncation from 'double' to 'float'
+\\apporto.com\dfs\SNHU\USERS\joshuapardue_snhu\Desktop\FinalProject\FinalProject\FinalProject\Pardue_Scene.cpp(833,66): warning C4305: 'argument': truncation from 'double' to 'float'
+\\apporto.com\dfs\SNHU\USERS\joshuapardue_snhu\Desktop\FinalProject\FinalProject\FinalProject\Pardue_Scene.cpp(848,65): warning C4305: 'argument': truncation from 'double' to 'float'
+\\apporto.com\dfs\SNHU\USERS\joshuapardue_snhu\Desktop\FinalProject\FinalProject\FinalProject\Pardue_Scene.cpp(858,65): warning C4305: 'argument': truncation from 'double' to 'float'
+\\apporto.com\dfs\SNHU\USERS\joshuapardue_snhu\Desktop\FinalProject\FinalProject\FinalProject\Pardue_Scene.cpp(868,65): warning C4305: 'argument': truncation from 'double' to 'float'
+\\apporto.com\dfs\SNHU\USERS\joshuapardue_snhu\Desktop\FinalProject\FinalProject\FinalProject\Pardue_Scene.cpp(878,65): warning C4305: 'argument': truncation from 'double' to 'float'
+\\apporto.com\dfs\SNHU\USERS\joshuapardue_snhu\Desktop\FinalProject\FinalProject\FinalProject\Pardue_Scene.cpp(886,26): warning C4305: 'argument': truncation from 'double' to 'float'
+\\apporto.com\dfs\SNHU\USERS\joshuapardue_snhu\Desktop\FinalProject\FinalProject\FinalProject\Pardue_Scene.cpp(897,65): warning C4305: 'argument': truncation from 'double' to 'float'
+\\apporto.com\dfs\SNHU\USERS\joshuapardue_snhu\Desktop\FinalProject\FinalProject\FinalProject\Pardue_Scene.cpp(908,66): warning C4305: 'argument': truncation from 'double' to 'float'
+\\apporto.com\dfs\SNHU\USERS\joshuapardue_snhu\Desktop\FinalProject\FinalProject\FinalProject\Pardue_Scene.cpp(920,65): warning C4305: 'argument': truncation from 'double' to 'float'
+\\apporto.com\dfs\SNHU\USERS\joshuapardue_snhu\Desktop\FinalProject\FinalProject\FinalProject\Pardue_Scene.cpp(930,65): warning C4305: 'argument': truncation from 'double' to 'float'
+\\apporto.com\dfs\SNHU\USERS\joshuapardue_snhu\Desktop\FinalProject\FinalProject\FinalProject\Pardue_Scene.cpp(940,65): warning C4305: 'argument': truncation from 'double' to 'float'
+\\apporto.com\dfs\SNHU\USERS\joshuapardue_snhu\Desktop\FinalProject\FinalProject\FinalProject\Pardue_Scene.cpp(950,65): warning C4305: 'argument': truncation from 'double' to 'float'
+\\apporto.com\dfs\SNHU\USERS\joshuapardue_snhu\Desktop\FinalProject\FinalProject\FinalProject\Pardue_Scene.cpp(958,26): warning C4305: 'argument': truncation from 'double' to 'float'
+\\apporto.com\dfs\SNHU\USERS\joshuapardue_snhu\Desktop\FinalProject\FinalProject\FinalProject\Pardue_Scene.cpp(968,65): warning C4305: 'argument': truncation from 'double' to 'float'
+\\apporto.com\dfs\SNHU\USERS\joshuapardue_snhu\Desktop\FinalProject\FinalProject\FinalProject\Pardue_Scene.cpp(980,66): warning C4305: 'argument': truncation from 'double' to 'float'
+\\apporto.com\dfs\SNHU\USERS\joshuapardue_snhu\Desktop\FinalProject\FinalProject\FinalProject\Pardue_Scene.cpp(987,26): warning C4305: 'argument': truncation from 'double' to 'float'
+\\apporto.com\dfs\SNHU\USERS\joshuapardue_snhu\Desktop\FinalProject\FinalProject\FinalProject\Pardue_Scene.cpp(536,12): warning C4101: 'model': unreferenced local variable
+\\apporto.com\dfs\SNHU\USERS\joshuapardue_snhu\Desktop\FinalProject\FinalProject\FinalProject\Pardue_Scene.cpp(1026,20): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+\\apporto.com\dfs\SNHU\USERS\joshuapardue_snhu\Desktop\FinalProject\FinalProject\FinalProject\Pardue_Scene.cpp(1067,11): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+\\apporto.com\dfs\SNHU\USERS\joshuapardue_snhu\Desktop\FinalProject\FinalProject\FinalProject\Pardue_Scene.cpp(1068,11): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+\\apporto.com\dfs\SNHU\USERS\joshuapardue_snhu\Desktop\FinalProject\FinalProject\FinalProject\Pardue_Scene.cpp(1072,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+\\apporto.com\dfs\SNHU\USERS\joshuapardue_snhu\Desktop\FinalProject\FinalProject\FinalProject\Pardue_Scene.cpp(1073,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+\\apporto.com\dfs\SNHU\USERS\joshuapardue_snhu\Desktop\FinalProject\FinalProject\FinalProject\Pardue_Scene.cpp(1074,10): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+\\apporto.com\dfs\SNHU\USERS\joshuapardue_snhu\Desktop\FinalProject\FinalProject\FinalProject\Pardue_Scene.cpp(1075,10): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  FinalProject.vcxproj -> \\apporto.com\dfs\SNHU\USERS\joshuapardue_snhu\Desktop\FinalProject\FinalProject\Debug\FinalProject.exe
