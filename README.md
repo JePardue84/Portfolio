@@ -1,4 +1,14 @@
 # Portfolio
+CS330 Comp Graphic and Visualization
+
+How do I approach designing software? 
+   Learning OpenGL and 3D graphics rendering was very rewarding yet challenging. Through this API, I was able to comprehend and take advantage of specific graphics hardware. Approaching this sort of learning platform had to be systematic, like any other platform, for the educational journey to be efficient. Starting with the basics and 2D I was able to work through rendering on a 2D plane with basic shapes. Drawing a basic triangle allowed for fundamentals on vertices, vertex buffer objects, and vertex array objects, with a brief introduction to shaders. This made the way for future tactics and allowed me to render 3D objects and call various classes such as the cylinder and sphere class. 
+How do I approach developing programs?
+   The approach I took on developing this program, specifically the 3D scene of my coffee table was done with modularity and logical partitioning in mind. The strategy was based on having several smaller parts and portions of code that serve minor functions yet combine to provide the purpose of the program. The usage of VBO and VAO’s allowed for necessary iteration. Along with ability of looping the various textures in with the different objects, the 3D scene came together just as it should have. The individual milestones kept necessary progress moving with small advances in learning such as shaders, lighting, and texturing. This was beneficial throughout the course as the final project was just a polishing of the milestones towards the end. 
+How can computer science help me in reaching my goals? 
+   Through this course and others, I now have a stronger understanding of the 2D/3D graphics rending process and what it entails. These newly found skills are a launching point into more complex projects I could take on in the future and be capable of completing. An additional and necessary tool for my toolbox to create and learn. From an educational standpoint, I feel that I have only brushed the top of the learning process with this course. The possibilities are endless and left to the imagination with OpenGL and the things I could render and learn. The same goes from a future professional pathway. From game design/development to even web or app design.There are multiple potentials that come from the base knowledge learned in this course. 
+
+
 CS340 Client/Server Development
 
 How do you write programs that are maintainable, readable, and adaptable? Especially consider your work on the CRUD Python module from Project One, which you used to connect the dashboard widgets to the database in Project Two. What were the advantages of working in this way? How else could you use this CRUD Python module in the future?
@@ -9,7 +19,6 @@ How do you approach a problem as a computer scientist? Consider how you approach
 
 What do computer scientists do, and why does it matter? How would your work on this type of project help a company, like Grazioso Salvare, to do their work better?
    A computer scientist has many potential roles but generally speaking uses technology to solve issues with a primary focus of validating and developing models for interaction between a person and a computer. This focus is very important due to the fact that close attention to detail is necessary for programming and a human component is required to bridge the gap between the computer and user. The dashboard created for Grazioso Salvare bridges this gap between computer and user allowing minimal amount of time and money to be spent on training an employee to query and/or search/update information based on the animal shelter project. 
-
 
 
 
