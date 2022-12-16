@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".Delete">
+
+
+    <Button
+        android:id="@+id/button_add"
+        android:layout_width="141dp"
+        android:layout_height="47dp"
+        android:layout_marginBottom="492dp"
+        android:backgroundTint="@color/teal_200"
+        android:text="Add"
+        android:textColor="#285D67"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="TextContrastCheck" />
+
+    <EditText
+        android:id="@+id/ItemLine2"
+        android:layout_width="316dp"
+        android:layout_height="48dp"
+        android:autofillHints=""
+        android:background="@drawable/rounded_corners"
+        android:drawableStart="@drawable/ic_baseline_add_24"
+        android:ems="10"
+        android:hint="Item supplier info"
+        android:inputType="textPersonName"
+        android:paddingRight="40dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.184" />
+
+    <EditText
+        android:id="@+id/ItemLine1"
+        android:layout_width="316dp"
+        android:layout_height="48dp"
+        android:autofillHints=""
+        android:background="@drawable/rounded_corners"
+        android:drawableStart="@drawable/ic_baseline_add_24"
+        android:ems="10"
+        android:hint="Item name info"
+        android:inputType="textPersonName"
+        android:paddingRight="30dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.089" />
+
+    <Button
+        android:id="@+id/viewInventory"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="View Added Inventory"
+        android:background="@drawable/rounded_crud"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.547"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/menuBack"
+        android:layout_width="173dp"
+        android:layout_height="50dp"
+        android:backgroundTint="@color/teal_200"
+        android:text="Back to Main Menu"
+        android:textColor="#285D67"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.911"
+        tools:ignore="TextContrastCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">List This!</string>
+    <string name="create">Create</string>
+    <string name="login">Login</string>
+    <string name="log_out">Log Out</string>
+    <string name="logout">Log Out</string>
+    <string name="question">What would you like to do?</string>
+    <string name="delete">Delete Inventory Item</string>
+    <string name="add_inventory">Add to Inventory</string>
+    <string name="update">Update Inventory Item</string>
+    <string name="view">View Inventory</string>
+    <string name="add">Add Inventory</string>
+    <string name="updateInventory">Update Inventory</string>
+    <string name="deleteInventory">Delete Inventory</string>
+    <string name="list">List</string>
+    <string name="back_to_menu">Back To Menu</string>
+    <string name="your_inventory">Your Inventory</string>
+    <string name="username_text">Username</string>
+    <string name="title_this">This!</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="remember_me">Remember Me</string>
+    <string name="login_button">Login</string>
+    <string name="password_text">Password</string>
+    <string name="forget_password">Forget Password</string>
+    <string name="username">username</string>
+    <string name="password">password</string>
+    <string name="delete_selected">Delete Selected</string>
+    <string name="update_selected">Update Selected</string>
+</resources>
