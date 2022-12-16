@@ -1,4 +1,17 @@
 # Portfolio
+
+CS360 Mobile Architect & Programming 
+
+The requirements in developing this app were basic in that a general warehouse inventory logging and tracking platform was the goal. The specifics included multiple database tables to store user login/passwords along with tables to store the actual inventory items. Necessary user interfaces were also included for login functionality. Buttons were implemented for creating, reading, updating, and deleting various inventory items. A mechanism was also included to request permissions for SMS texting when inventory reaches a certain point.  
+
+The screens and features of this inventory app were designed with the user in mind in that ease of use was a necessity. Minimal amount of clutter was a priority, so the user interfaces were created with basic buttons and features. The Sign-Up UI opens the app with a prompt to the user. The user login and password is stored in a database followed by the actual login screen that pulls from the login.db sqlite database. After an additional prompt for SMS permissions, the app then leads the user to the menu activity. Here the user decides if they want to create, read, update, or delete inventory particulars. The success in these UI designs was in the simplicity of the app. There are no complex activities to decipher when manipulating the inventory items.  
+
+I approached the coding portion of the app systematically as I kept detailed logs and diagrams of the direction I would like to take the app in. This allowed order of thought and promoted creativity and organization. I will continue to apply these techniques in the future when designing and building any application.  
+
+My code was tested on a continuous basis specifically after writing a method or completing a line of code in an .xml portion. The process of testing early and often was paramount especially in a multi layered app such as this to determine which portions were functional and which portions still needed adjusting.  
+
+From start to finish with respect to initial planning to finalization, the most challenging yet enjoyable segment was implementing the CRUD and linking it to the UI specifics. Having the code perform in a way that it was designed and written to do was rewarding in itself. In the same way, I was able to demonstrate knowledge, skill, and experience with the CRUD portion as it linked with the UI to create inventory items, view them, update, and delete accordingly.  
+
 CS330 Comp Graphic and Visualization
 
 How do I approach designing software? 
