@@ -1,0 +1,3 @@
+﻿  SQLInjection.cpp
+C:\Users\jepardue\Desktop\Pardue_SQL Injection Activity\Pardue_SQL Injection Activity\SQLInjection.cpp(204,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Pardue_SQL Injection Activity.vcxproj -> C:\Users\jepardue\Desktop\Pardue_SQL Injection Activity\x64\Debug\Pardue_SQL Injection Activity.exe
