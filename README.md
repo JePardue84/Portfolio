@@ -7,10 +7,10 @@ For this course, there are two projects I am proud to showcase where I learned q
 While both projects were challenging, I learned quite a bit and feel confident about the structure of my code. After some research I was able to utilize best coding practices and write an efficient and modular program to work properly with the TI-3220S.
 
 
-It seems that the more I learn the more I realize how much there is to learn so there is always room for improvement in all aspects. While these projects were meaningful, I will be using them as a jumping off point to improve my coding and knowledge skills with embedded systems. I would like to continue to grow professionally with this newfound knowledge and get to a place where these skills can be marketable. 
+It seems that the more I learn, the more I realize how much there is to learn, so there is always room for improvement in all aspects. While these projects were meaningful, I will be using them as a jumping off point to improve my coding and knowledge skills with embedded systems. I would like to continue to grow professionally with this newfound knowledge and get to a place where these skills can be marketable. 
 
 
-I would like to incorporate the specifics of the TI-3220S into various projects I already have to make them more efficient. Knowing how to manipulate and work with the specifics of this board have broadened my horizons and allowed me to further open additional doors of learning. 
+I would like to incorporate the specifics of the TI-3220S into various projects I already have to make them more efficient. Knowing how to manipulate and work with the specifics of this board has broadened my horizons and allowed me to further open additional doors of learning. 
 
 
 The skills learned in these projects and overall coursework will correlate with any embedded systems career. Specifically, the coding best practices, cloud/Wi-Fi functionality, and knowledge of various hardware architectures will be very valuable in my career field. 
