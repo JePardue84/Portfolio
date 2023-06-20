@@ -16,7 +16,7 @@ I would like to incorporate the specifics of the TI-3220S into various projects 
 The skills learned in these projects and overall coursework will correlate with any embedded systems career. Specifically, the coding best practices, cloud/Wi-Fi functionality, and knowledge of various hardware architectures will be very valuable in my career field. 
 
 
-A modular and organized code structure was implemented using best practices such as meaningful variable names, consistent indentation, and clear comments. This helps to enhance readability and make it easier for other developers to understand and maintain the code in the future. Proper documentation was created including a detailed README file and inline code comments, providing instructions and explanations for different sections of the project.
+A modular and organized code structure was implemented using best practices such as meaningful variable names, consistent indentation, and clear comments. This helps to enhance readability and make it easier for other developers to understand and maintain the code in the future. Proper documentation was created including a detailed README file and inline code comments, providing instructions and explanations for different sections of the projects.
 
 
 CS360 Mobile Architect & Programming 
