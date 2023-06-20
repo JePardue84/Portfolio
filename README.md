@@ -1,4 +1,18 @@
 # Portfolio
+CS350 Emerging Systems Architecture and Technology
+Summarize the project and what problem it was solving.
+For this course, there are two projects I am proud to showcase where I learned quite a bit about the various features of the TI-3220S development board. The first is the morse code project where I was able to send a morse code message via the LED using a synchronous state machine. There were two messages implemented, “SOS” and “OK”. The second project is a thermostat with various implementations such as code for all the specified functionalities. Reading room temperature, indicating the result via LED output, increasing or decreasing the set temperature, and simulating the data being sent to a server. I wrote code that initializes the timer and uses it to drive specified actions, code that uses interrupt to detect button presses, code to initialize the I2C peripheral and use it to read the temperature sensor, code to initialize the GPIO peripheral and use it, code to initialize the UART peripheral and output specified data, and implemented a task scheduler.
+What did you do particularly well?
+While both projects were challenging, I learned quite a bit and feel confident about the structure of my code. After some research I was able to utilize best coding practices and write an efficient and modular program to work properly with the TI-3220S.
+Where could you improve?
+It seems that the more I learn the more I realize how much there is to learn so there is always room for improvement in all aspects. While these projects were meaningful, I will be using them as a jumping off point to improve my coding and knowledge skills with embedded systems. I would like to continue to grow professionally with this newfound knowledge and get to a place where these skills can be marketable. 
+What tools and/or resources are you adding to your support network?
+I would like to incorporate the specifics of the TI-3220S into various projects I already have to make them more efficient. Knowing how to manipulate and work with the specifics of this board have broadened my horizons and allowed me to further open additional doors of learning. 
+What skills from this project will be particularly transferable to other projects and/or course work?
+The skills learned in these projects and overall coursework will correlate with any embedded systems career. Specifically, the coding best practices, cloud/Wi-Fi functionality, and knowledge of various hardware architectures will be very valuable in my career field. 
+How did you make this project maintainable, readable, and adaptable?
+A modular and organized code structure was implemented using best practices such as meaningful variable names, consistent indentation, and clear comments. This helps to enhance readability and make it easier for other developers to understand and maintain the code in the future. Proper documentation was created including a detailed README file and inline code comments, providing instructions and explanations for different sections of the project.
+
 
 CS360 Mobile Architect & Programming 
 
